@@ -1,11 +1,14 @@
 @import "../../mixins.scss";
 
+
+
 .carousel {
     margin-bottom: 50px;
 
     .contentWrapper {
         position: relative;
     }
+
 
     .carouselTitle {
         font-size: 24px;
@@ -75,6 +78,8 @@
                 width: 100%;
                 aspect-ratio: 1 / 1.5;
                 margin-bottom: 30px;
+
+
             }
 
             .textBlock {
@@ -102,6 +107,8 @@
         margin-right: -20px;
         margin-left: -20px;
         padding: 0 20px;
+
+
 
         @include md {
             gap: 20px;
@@ -135,6 +142,9 @@
                 align-items: flex-end;
                 justify-content: space-between;
                 padding: 10px;
+
+
+
 
                 .lazy-load-image-background {
                     position: absolute;

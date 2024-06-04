@@ -8,7 +8,7 @@ const Img = ({ src, className }) => {
             className={className || ""}
             alt=""
             effect="blur"
-            src={src}
+            src={src ? src : "default"}
         />
     );
 };
