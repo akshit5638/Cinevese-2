@@ -11,6 +11,8 @@ const TopRated = () => {
 
     const { data, loading } = useFetch(`/${endpoint}/top_rated`);
 
+    // console.log(data);
+    // data.page = 2;
     const onTabChange = (tab) => {
         setEndpoint(tab === "Movies" ? "movie" : "tv");
     };
